@@ -1,0 +1,11 @@
+[user]
+	email = roy.theimer@gmail.com
+	name = Roy Theimer
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[pull]
+	rebase = false
+[core]
+	editor = code --wait
