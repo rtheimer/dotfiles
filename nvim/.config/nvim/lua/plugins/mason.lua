@@ -20,11 +20,11 @@ return {
         end
         -- enable mason and configure icon
         mason.setup({
-           ui = {
-            icons = {
-                package_installed = "✓",
-                package_pending = "➜",
-                package_uninstalled = "✗"
+            ui = {
+                icons = {
+                    package_installed = "✓",
+                    package_pending = "➜",
+                    package_uninstalled = "✗"
                 }
             }
         })
@@ -36,6 +36,8 @@ return {
                 "lua_ls",
                 "tsserver",
                 "emmet_language_server",
+                "clangd",
+                "tailwindcss",
             },
             -- auto install configured servers
             automatic_installation = true,
@@ -95,6 +97,15 @@ return {
             on_attach = on_attach,
         })
         lspconfig.emmet_language_server.setup({
+            capabilities = capabilities,
+            on_attach = on_attach,
+        })
+        lspconfig.clangd.setup({
+            capabilities = capabilities,
+            on_attach = on_attach,
+            filetypes = {'c', 'cpp', 'cxx', 'cc'},
+        })
+        lspconfig.tailwindcss.setup({
             capabilities = capabilities,
             on_attach = on_attach,
         })
