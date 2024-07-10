@@ -1,5 +1,6 @@
 [env]
 TERM = "st-256color"
+TERM_PROGRAM = "alacritty"
 
 [colors.primary]
 background = "0x000000"
@@ -10,7 +11,7 @@ black = "0x000000"
 red = "0xFF0000"
 green = "0x00FF00"
 yellow = "0xFFFF00"
-blue = "0x0000FF"
+blue = "0x005FFF"
 magenta = "0xFF00FF"
 cyan = "0x00FFFF"
 white = "0xFFFFFF"
@@ -20,8 +21,26 @@ black = "0x555555"
 red = "0xFF5555"
 green = "0x55FF55"
 yellow = "0xFFFF55"
-blue = "0x5555FF"
+blue = "0x0000FF"
 magenta = "0xFF55FF"
 cyan = "0x55FFFF"
 white = "0xFFFFFF"
 
+[font]
+size = 14.0
+
+[font.normal]
+family = "MesloLGS Nerd Font Mono"
+style = "Regular"
+
+[font.bold]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Italic"
