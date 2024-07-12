@@ -44,3 +44,6 @@ style = "Bold Italic"
 [font.italic]
 family = "MesloLGS Nerd Font Mono"
 style = "Italic"
+
+[mouse]
+hide_when_typing = true
