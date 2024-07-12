@@ -132,3 +132,6 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 . "$HOME/.cargo/env"
 source ~/.bash_completion/alacritty
+
+# activate starship
+eval "$(starship init bash)"
