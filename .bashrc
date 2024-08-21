@@ -134,4 +134,8 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 source ~/.bash_completion/alacritty
 
 # activate starship
+export STARSHIP_CONFIG="~/.config/starship/config.toml"
+export STARSHIP_CACHE="~/.config/starship/cache"
 eval "$(starship init bash)"
+
+echo -e "\e[32m$(figlet T u x O f f i c e)\e[0m"
