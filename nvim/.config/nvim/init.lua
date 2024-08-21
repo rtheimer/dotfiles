@@ -21,4 +21,4 @@
 -- the lazy nvim plugin manager
 require("plugin_manager")
 -- Load options from options.lua
-require('config')
+require("config")
