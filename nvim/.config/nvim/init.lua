@@ -18,6 +18,9 @@
 --
 --5 directories, 10 files
 
+-- Set space as the leader key
+vim.g.mapleader = " "
+
 -- the lazy nvim plugin manager
 require("plugin_manager")
 -- Load options from options.lua

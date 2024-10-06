@@ -139,10 +139,3 @@ export STARSHIP_CACHE="~/.config/starship/cache"
 eval "$(starship init bash)"
 
 echo -e "\e[32m$(figlet T u x O f f i c e)\e[0m"
-source ~/.bash_completion/alacritty
-
-# Enable ioBroker command auto-completion
-source ~/.iobroker/iobroker_completions
-
-# Forces npm to run as iobroker when inside the iobroker installation dir
-source ~/.iobroker/npm_command_fix
